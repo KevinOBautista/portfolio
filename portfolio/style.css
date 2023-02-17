@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #D8D5DB;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #2D3142;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Title */
+header > h1{
+  color: #EAE8FF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* Header Subtitle */
+header > p{
+  color: #EAE8FF;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+footer{
+  background-color: #2D3142;
+  padding: 20px;
+  color:#EAE8FF;
+  text-align: center;
+  font-size: 16px;
+}
+/* horizontal */ 
+hr {
+  height: 10px;
+  background-color: #2D3142;
+  margin: 20px;
+  border: 2px solid #2D3142;
+}
+
+article{
+  text-align: center;
+  margin: 30px 30px;
+}
+/* Bring dots to middle */
+ul,ol{
+  display: inline-block;
+  text-align: left;
+}
+/* visual for links*/
+a:link {
+  color: #7abdff;
+}
+
+a:visited {
+  color: #4a5968;
+}
+
+a:hover{
+  color: #52a8ff;
+}
+
+a:active {
+  color: #0080ff;
+}
+/* buffalo picture */
+#buffalo-ny{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
